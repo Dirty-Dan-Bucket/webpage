@@ -8,14 +8,50 @@
 </head>
 <body>
   <a href="index.html">Link to Main Page</a>
+  <hr>
   <form>
     <p>
-      <label for="text">Text Input</label>
+      <label for="text">Text Input: </label>
       <input type="text" id="text" name="text">
     </p>
     <p>
-      <label for="pWord">Password Input</label>
+      <label for="pWord">Password Input: </label>
       <input type="password" name="pWord" id="pWord">
+    </p>
+    <hr>
+    <h4>Radio Buttons</h4>
+    <p>
+      <input type="radio" name="crapBox" value="Stuff" id="stuff">
+      <label for="stuff">Stuff</label>
+    </p>
+    <p>
+      <input type="radio" name="crapBox" value="Garbo" id="garbage">
+      <label for="garbage">Garbo</label>
+    </p>
+    <p>
+      <input type="radio" name="crapBox" value="Goober" id="goob">
+      <label for="goob">Goober</label>
+    </p>
+    <hr>
+    <h4>Checkboxes</h4>
+    <p>
+      <label for="thing1">Thing 1:</label>
+      <input type="checkbox" name="thing1" id="thing1">
+    </p>
+    <p>
+      <label for="thing2">Thing 2:</label>
+      <input type="checkbox" name="thing2" id="thing2">
+    </p>
+    <hr>
+    <h4>Multiple Select Boxes</h4>
+    <p>
+      <label for="fruit">Chose some fruits (hold Ctrl when clicking):</label>
+      <select name="fruit" id="fruit" multiple size="4">
+        <option value="banana">Banana</option>
+        <option value="apple">Apple</option>
+        <option value="cherry">Cherry</option>
+        <option value="orange">Orange</option>
+      </select>
     </p>
   </form>
 </body>
