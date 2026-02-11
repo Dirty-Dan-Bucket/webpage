@@ -9,6 +9,10 @@
     a {
       margin-right: 10px;
     }
+    .required::after {
+      content: "*";
+      color: red;
+    }
   </style>
 </head>
 <body>
@@ -61,10 +65,18 @@
     </p>
     <hr>
     <h4>Date Input</h4>
-    <input type="date">
+    <p>
+      <label class="required">Pick a date</label>
+      <input type="date" required>
+    </p>
+    <hr>
+    <h4>Submit Button</h4>
+    <p>
+      <input type="submit" value="Submit">
+    </p>
   </form>
   <br>
   <hr>
-  <a href="#top" class="bottom">Link to Top</a>
+  <a href="#top" id="bottom">Link to Top</a>
 </body>
 </html>
