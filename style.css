@@ -34,3 +34,11 @@ ul {
 ol {
   list-style-type: lower-roman;
 }
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:hover {
+  background-color: lightblue;
+}
